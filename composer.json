@@ -1,0 +1,36 @@
+{
+    "name": "gabrielchavezme/laraform-command",
+    "description": "Generate Laraform class in your Laravel project.",
+    "keywords": ["laravel", "laraform", "command"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Chávez",
+            "email": "contacto@gabrielchavez.me",
+            "homepage": "https://gabrielchavez.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GabrielChavezMe\\LaraformCommand\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2.5",
+        "laravel/framework": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GabrielChavezMe\\LaraformCommand\\Providers\\LaraformCommandServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
