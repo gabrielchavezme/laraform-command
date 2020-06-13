@@ -7,5 +7,5 @@ use Laraform;
 
 class DummyClass extends Laraform
 {
-
+  //
 }
