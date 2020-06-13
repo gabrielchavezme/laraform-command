@@ -4,7 +4,7 @@ This library provides a simple command to generate Laraform forms.
 
 ## Installation
 
-Use the package manager [composer](https://getcomposer.org/) to install foobar.
+Use the package manager [composer](https://getcomposer.org/) to install laraform-command.
 
 ```bash
 composer require gabrielchavezme/laraform-command
