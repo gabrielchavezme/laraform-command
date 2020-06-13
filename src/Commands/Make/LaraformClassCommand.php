@@ -94,14 +94,4 @@ class LaraformClassCommand extends GeneratorCommand
             ['methods', 'm', InputOption::VALUE_NONE, 'Generate stub methods.'],
         ];
     }
-
-    /**
-     * Execute the console command.
-     *
-     * @return mixed
-     */
-    public function handle()
-    {
-        $this->info('Class form created successfully.');
-    }
 }
